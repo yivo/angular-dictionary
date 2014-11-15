@@ -1,0 +1,16 @@
+.search-options {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.search-options .search-option {
+    display: inline;
+    border: 1px solid;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.search-options .search-option.active {
+    color: red;
+    border: 1px solid red;
+}

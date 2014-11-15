@@ -1,0 +1,3 @@
+ul.menu(ng-controller="menu")
+  li.menu-item(ng-repeat="item in menu")
+    a(ui-sref="{{item.state}}") {{item.name}}

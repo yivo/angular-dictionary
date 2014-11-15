@@ -1,0 +1,6 @@
+h3 Dictionary page
+ul.search-options
+  li.search-option(ng-class="{active: !rules.query}" ng-click="rules.query = null") Any
+  li.search-option(ng-class="{active: rules.query === alpha}" ng-click="rules.query = alpha" ng-repeat="alpha in alphabet")
+    span() Starts with "{{alpha}}"
+div(ui-view)

@@ -1,0 +1,8 @@
+doctype html
+html(ng-app="app")
+  head
+    = stylesheet_link_tag 'stylesheets', media: 'all'
+    title Angular Words
+  body
+    div(class="wrapper" ui-view)
+  = javascript_include_tag 'manifest'

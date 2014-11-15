@@ -1,0 +1,11 @@
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*.log
+/tmp
+/node_modules/
+/.idea/
+.DS_Store
+/.bundle/
+/dump/
+/vendor/
+/log/
